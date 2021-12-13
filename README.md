@@ -1,558 +1,62 @@
-Contribution: 2018-01-08 20:00
+# Chat App
 
-Contribution: 2018-01-08 20:01
+A chat application using React, Redux Toolkit, Socket.io, and Tailwind CSS.
 
-Contribution: 2018-01-08 20:02
+![](screenshots/login.png)
 
-Contribution: 2018-01-08 20:03
+![](screenshots/app.png)
 
-Contribution: 2018-01-09 20:00
+## Setup
 
-Contribution: 2018-01-09 20:01
+### Install dependencies
 
-Contribution: 2018-01-09 20:02
+Install the dependencies for the client and server.
 
-Contribution: 2018-01-09 20:03
+```bash
+# in one terminal window
+cd server && npm i
+# in another terminal window
+cd client && npm i
+```
 
-Contribution: 2018-01-09 20:04
+### Start server
 
-Contribution: 2018-01-09 20:05
+An Express server is maintaining a Socket.io connection, persisting data short-term in memory, and exposes an API for accessing persistent data.
 
-Contribution: 2018-01-09 20:06
+```bash
+# in /server
+npm start
+```
 
-Contribution: 2018-01-10 20:00
+> Server is running on `localhost:5000`.
 
-Contribution: 2018-01-10 20:01
+### Start client
 
-Contribution: 2018-01-13 20:00
+A React server with Redux for the front end.
 
-Contribution: 2018-01-13 20:01
+```bash
+# in /client
+npm start
+```
 
-Contribution: 2018-01-13 20:02
+> Client dev server is running on `localhost:3000`.
 
-Contribution: 2018-01-14 20:00
+You can view the app at `localhost:3000`. Log in with any valid email and username, and you'll enter into the chatroom, which will display all users (noting which are currently online) and all messages.
 
-Contribution: 2018-01-14 20:01
+### Production build
 
-Contribution: 2018-01-14 20:02
+Run `npm run build` on `client` and `server` to compile to JavaScript.
 
-Contribution: 2018-01-14 20:03
+## Todos
 
-Contribution: 2018-01-14 20:04
-
-Contribution: 2018-01-14 20:05
-
-Contribution: 2018-01-14 20:06
-
-Contribution: 2018-01-14 20:07
-
-Contribution: 2018-01-14 20:08
-
-Contribution: 2018-01-15 20:00
-
-Contribution: 2018-01-15 20:01
-
-Contribution: 2018-01-15 20:02
-
-Contribution: 2018-01-15 20:03
-
-Contribution: 2018-01-17 20:00
-
-Contribution: 2018-01-17 20:01
-
-Contribution: 2018-01-17 20:02
-
-Contribution: 2018-01-17 20:03
-
-Contribution: 2018-01-17 20:04
-
-Contribution: 2018-01-17 20:05
-
-Contribution: 2018-01-17 20:06
-
-Contribution: 2018-01-17 20:07
-
-Contribution: 2018-01-18 20:00
-
-Contribution: 2018-01-18 20:01
-
-Contribution: 2018-01-18 20:02
-
-Contribution: 2018-01-19 20:00
-
-Contribution: 2018-01-19 20:01
-
-Contribution: 2018-01-19 20:02
-
-Contribution: 2018-01-19 20:03
-
-Contribution: 2018-01-19 20:04
-
-Contribution: 2018-01-19 20:05
-
-Contribution: 2018-01-19 20:06
-
-Contribution: 2018-01-20 20:00
-
-Contribution: 2018-01-20 20:01
-
-Contribution: 2018-01-22 20:00
-
-Contribution: 2018-01-22 20:01
-
-Contribution: 2018-01-24 20:00
-
-Contribution: 2018-01-24 20:01
-
-Contribution: 2018-01-24 20:02
-
-Contribution: 2018-01-24 20:03
-
-Contribution: 2018-01-24 20:04
-
-Contribution: 2018-01-24 20:05
-
-Contribution: 2018-01-24 20:06
-
-Contribution: 2018-01-24 20:07
-
-Contribution: 2018-01-27 20:00
-
-Contribution: 2018-01-27 20:01
-
-Contribution: 2018-01-27 20:02
-
-Contribution: 2018-01-27 20:03
-
-Contribution: 2018-01-27 20:04
-
-Contribution: 2018-01-27 20:05
-
-Contribution: 2018-01-27 20:06
-
-Contribution: 2018-01-30 20:00
-
-Contribution: 2018-01-30 20:01
-
-Contribution: 2018-01-30 20:02
-
-Contribution: 2018-01-30 20:03
-
-Contribution: 2018-01-30 20:04
-
-Contribution: 2018-01-30 20:05
-
-Contribution: 2018-01-30 20:06
-
-Contribution: 2018-01-31 20:00
-
-Contribution: 2018-01-31 20:01
-
-Contribution: 2018-01-31 20:02
-
-Contribution: 2018-01-31 20:03
-
-Contribution: 2018-01-31 20:04
-
-Contribution: 2018-01-31 20:05
-
-Contribution: 2018-01-31 20:06
-
-Contribution: 2018-01-31 20:07
-
-Contribution: 2018-02-01 20:00
-
-Contribution: 2018-02-01 20:01
-
-Contribution: 2018-02-01 20:02
-
-Contribution: 2018-02-01 20:03
-
-Contribution: 2018-02-01 20:04
-
-Contribution: 2018-02-01 20:05
-
-Contribution: 2018-02-01 20:06
-
-Contribution: 2018-02-01 20:07
-
-Contribution: 2018-02-01 20:08
-
-Contribution: 2018-02-02 20:00
-
-Contribution: 2018-02-02 20:01
-
-Contribution: 2018-02-02 20:02
-
-Contribution: 2018-02-02 20:03
-
-Contribution: 2018-02-02 20:04
-
-Contribution: 2018-02-02 20:05
-
-Contribution: 2018-02-02 20:06
-
-Contribution: 2018-02-02 20:07
-
-Contribution: 2018-02-05 20:00
-
-Contribution: 2018-02-05 20:01
-
-Contribution: 2018-02-05 20:02
-
-Contribution: 2018-02-06 20:00
-
-Contribution: 2018-02-06 20:01
-
-Contribution: 2018-02-06 20:02
-
-Contribution: 2018-02-06 20:03
-
-Contribution: 2018-02-07 20:00
-
-Contribution: 2018-02-07 20:01
-
-Contribution: 2018-02-07 20:02
-
-Contribution: 2018-02-07 20:03
-
-Contribution: 2018-02-07 20:04
-
-Contribution: 2018-02-07 20:05
-
-Contribution: 2018-02-07 20:06
-
-Contribution: 2018-02-07 20:07
-
-Contribution: 2018-02-07 20:08
-
-Contribution: 2018-02-07 20:09
-
-Contribution: 2018-02-09 20:00
-
-Contribution: 2018-02-09 20:01
-
-Contribution: 2018-02-09 20:02
-
-Contribution: 2018-02-09 20:03
-
-Contribution: 2018-02-12 20:00
-
-Contribution: 2018-02-12 20:01
-
-Contribution: 2018-02-12 20:02
-
-Contribution: 2018-02-12 20:03
-
-Contribution: 2018-02-14 20:00
-
-Contribution: 2018-02-14 20:01
-
-Contribution: 2018-02-15 20:00
-
-Contribution: 2018-02-15 20:01
-
-Contribution: 2018-02-15 20:02
-
-Contribution: 2018-02-15 20:03
-
-Contribution: 2018-02-15 20:04
-
-Contribution: 2018-02-15 20:05
-
-Contribution: 2018-02-15 20:06
-
-Contribution: 2018-02-15 20:07
-
-Contribution: 2018-02-15 20:08
-
-Contribution: 2018-02-16 20:00
-
-Contribution: 2018-02-16 20:01
-
-Contribution: 2018-02-16 20:02
-
-Contribution: 2018-02-16 20:03
-
-Contribution: 2018-02-16 20:04
-
-Contribution: 2018-02-19 20:00
-
-Contribution: 2018-02-19 20:01
-
-Contribution: 2018-02-19 20:02
-
-Contribution: 2018-02-19 20:03
-
-Contribution: 2018-02-19 20:04
-
-Contribution: 2018-02-19 20:05
-
-Contribution: 2018-02-19 20:06
-
-Contribution: 2018-02-19 20:07
-
-Contribution: 2018-02-20 20:00
-
-Contribution: 2018-02-20 20:01
-
-Contribution: 2018-02-20 20:02
-
-Contribution: 2018-02-20 20:03
-
-Contribution: 2018-02-20 20:04
-
-Contribution: 2018-02-20 20:05
-
-Contribution: 2018-02-20 20:06
-
-Contribution: 2018-02-20 20:07
-
-Contribution: 2018-02-20 20:08
-
-Contribution: 2018-02-20 20:09
-
-Contribution: 2018-02-21 20:00
-
-Contribution: 2018-02-21 20:01
-
-Contribution: 2018-02-21 20:02
-
-Contribution: 2018-02-21 20:03
-
-Contribution: 2018-02-21 20:04
-
-Contribution: 2018-02-21 20:05
-
-Contribution: 2018-02-21 20:06
-
-Contribution: 2018-02-21 20:07
-
-Contribution: 2018-02-21 20:08
-
-Contribution: 2018-02-21 20:09
-
-Contribution: 2018-02-23 20:00
-
-Contribution: 2018-02-23 20:01
-
-Contribution: 2018-02-23 20:02
-
-Contribution: 2018-02-23 20:03
-
-Contribution: 2018-02-23 20:04
-
-Contribution: 2018-02-23 20:05
-
-Contribution: 2018-02-23 20:06
-
-Contribution: 2018-02-25 20:00
-
-Contribution: 2018-02-25 20:01
-
-Contribution: 2018-02-25 20:02
-
-Contribution: 2018-02-25 20:03
-
-Contribution: 2018-02-25 20:04
-
-Contribution: 2018-02-25 20:05
-
-Contribution: 2018-02-25 20:06
-
-Contribution: 2018-02-25 20:07
-
-Contribution: 2018-02-25 20:08
-
-Contribution: 2018-02-25 20:09
-
-Contribution: 2018-02-26 20:00
-
-Contribution: 2018-02-26 20:01
-
-Contribution: 2018-02-26 20:02
-
-Contribution: 2018-02-27 20:00
-
-Contribution: 2018-02-27 20:01
-
-Contribution: 2018-02-27 20:02
-
-Contribution: 2018-02-27 20:03
-
-Contribution: 2018-02-27 20:04
-
-Contribution: 2018-02-27 20:05
-
-Contribution: 2018-02-27 20:06
-
-Contribution: 2018-03-03 20:00
-
-Contribution: 2018-03-03 20:01
-
-Contribution: 2018-03-03 20:02
-
-Contribution: 2018-03-05 20:00
-
-Contribution: 2018-03-05 20:01
-
-Contribution: 2018-03-05 20:02
-
-Contribution: 2018-03-05 20:03
-
-Contribution: 2018-03-07 20:00
-
-Contribution: 2018-03-07 20:01
-
-Contribution: 2018-03-07 20:02
-
-Contribution: 2018-03-11 20:00
-
-Contribution: 2018-03-11 20:01
-
-Contribution: 2018-03-11 20:02
-
-Contribution: 2018-03-11 20:03
-
-Contribution: 2018-03-11 20:04
-
-Contribution: 2018-03-11 20:05
-
-Contribution: 2018-03-11 20:06
-
-Contribution: 2018-03-11 20:07
-
-Contribution: 2018-03-12 20:00
-
-Contribution: 2018-03-12 20:01
-
-Contribution: 2018-03-12 20:02
-
-Contribution: 2018-03-12 20:03
-
-Contribution: 2018-03-12 20:04
-
-Contribution: 2018-03-13 20:00
-
-Contribution: 2018-03-13 20:01
-
-Contribution: 2018-03-13 20:02
-
-Contribution: 2018-03-13 20:03
-
-Contribution: 2018-03-14 20:00
-
-Contribution: 2018-03-14 20:01
-
-Contribution: 2018-03-14 20:02
-
-Contribution: 2018-03-14 20:03
-
-Contribution: 2018-03-14 20:04
-
-Contribution: 2018-03-14 20:05
-
-Contribution: 2018-03-16 20:00
-
-Contribution: 2018-03-18 20:00
-
-Contribution: 2018-03-18 20:01
-
-Contribution: 2018-03-18 20:02
-
-Contribution: 2018-03-21 20:00
-
-Contribution: 2018-03-22 20:00
-
-Contribution: 2018-03-22 20:01
-
-Contribution: 2018-03-22 20:02
-
-Contribution: 2018-03-29 20:00
-
-Contribution: 2018-03-29 20:01
-
-Contribution: 2018-03-29 20:02
-
-Contribution: 2018-03-29 20:03
-
-Contribution: 2018-03-29 20:04
-
-Contribution: 2018-03-29 20:05
-
-Contribution: 2018-03-29 20:06
-
-Contribution: 2018-03-29 20:07
-
-Contribution: 2018-03-29 20:08
-
-Contribution: 2018-03-29 20:09
-
-Contribution: 2018-03-30 20:00
-
-Contribution: 2018-03-30 20:01
-
-Contribution: 2018-03-30 20:02
-
-Contribution: 2018-03-30 20:03
-
-Contribution: 2018-03-31 20:00
-
-Contribution: 2018-03-31 20:01
-
-Contribution: 2018-03-31 20:02
-
-Contribution: 2018-03-31 20:03
-
-Contribution: 2018-03-31 20:04
-
-Contribution: 2018-03-31 20:05
-
-Contribution: 2018-03-31 20:06
-
-Contribution: 2018-04-01 20:00
-
-Contribution: 2018-04-01 20:01
-
-Contribution: 2018-04-01 20:02
-
-Contribution: 2018-04-01 20:03
-
-Contribution: 2018-04-01 20:04
-
-Contribution: 2018-04-01 20:05
-
-Contribution: 2018-04-01 20:06
-
-Contribution: 2018-04-06 20:00
-
-Contribution: 2018-04-06 20:01
-
-Contribution: 2018-04-09 20:00
-
-Contribution: 2018-04-09 20:01
-
-Contribution: 2018-04-09 20:02
-
-Contribution: 2018-04-10 20:00
-
-Contribution: 2018-04-10 20:01
-
-Contribution: 2018-04-10 20:02
-
-Contribution: 2018-04-10 20:03
-
-Contribution: 2018-04-10 20:04
-
-Contribution: 2018-04-10 20:05
-
-Contribution: 2018-04-10 20:06
-
-Contribution: 2018-04-10 20:07
-
-Contribution: 2018-04-10 20:08
-
-Contribution: 2018-04-12 20:00
-
-Contribution: 2018-04-12 20:01
-
+- [ ] Duplicate users should be checked and not allowed
+- [x] Add user is typing
+- [ ] Allow tagging
+- [ ] Add settings
+- [ ] Add error handling
+- [ ] Add tests
+  - [ ] Jest Unit tests
+  - [ ] React Testing Library component tests
+  - [ ] Cypress end-to-end tests
+- [ ] Add ESLint
+- [x] Add Docker support
